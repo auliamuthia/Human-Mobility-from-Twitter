@@ -1,0 +1,4 @@
+
+SELECT date,       
+lead(date) OVER (ORDERBYdate)
+FROM sales;
